@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="giftastic.css">
+    <link href="https://fonts.googleapis.com/css?family= Nunito|Permanent+Marker" rel="stylesheet">
+    <title>GifTastic</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <h4 class="text-center">Click any dessert button to display some .GIFs!</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8" id="dessertButtons"></div>
+            <div class="col-sm-4">
+                <form id="dessertForm">
+                    <label for="dessertInput">Enter a new dessert:</label>
+                    <input class="form-control" type="text" id="dessertInput">
+                    <button id="adddessert" class="btn btn-primary btn-block button-submit" type="submit" value="Submit">Add</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8" id="desserts">
+              
+
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="giftastic.js"></script>
+</body>
+
+</html>

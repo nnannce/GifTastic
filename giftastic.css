@@ -1,0 +1,43 @@
+body { 
+    background-image: url("images/cupcake1.jpg");
+  	top: 0; 
+  	left: 0; 
+  	min-width: 100%;
+ 	min-height: 100%;
+ 	background-position: center center;
+			background-repeat:  no-repeat;
+				background-size:  100%;
+				background-color: #f9b1e3;
+				color: white;
+
+}
+
+h4{font-family: 'Permanent Marker', cursive;
+	font-size: 40px;
+	color: white;}
+.button-list {
+    margin: 15px 5px;
+    background-color: #dbabcc;
+font-family: 'Nunito', sans-serif;
+}
+.button-list:hover {background-color:#a86694;}
+.button-list:focus {background-color:#a86694;}
+
+.button-submit {
+    margin-top: 10px;
+    background-color: #dbabcc;
+    outline-color: #dbabcc;
+    font-family: 'Nunito', sans-serif;
+    
+
+}
+.button-submit:hover {background-color:#a86694;}
+.button-list:focus {background-color:#a86694;}
+
+.gif-margin {
+    margin-bottom: 25px;
+}
+
+.panel {
+    background-color: black;
+}
